@@ -1,0 +1,75 @@
+.jumbotron {
+  background: #00384d !important;
+  padding: 2rem !important;
+}
+
+.display-name {
+  color: #ffffff;
+  font-family: 'Georgia, Garamond, "Times New Roman", Times, serif';
+}
+
+.address > label {
+  color: #ffffff;
+}
+
+.fa-address-card-o {
+  color: #000;
+  background: #fff;
+}
+
+.fa-phone, .fa-envelope-o, .fa-linkedin {
+  color: #fff;
+}
+
+.header-label, .header-label > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-label > a:hover {
+  color: #fff;
+}
+
+.year {
+  color: #32312f;
+}
+
+.position {
+  font-weight: 500;
+  color: #116f93;
+}
+
+.title {
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Georgia, Garamond, "Times New Roman", Times, serif';
+  color: #0e2024;
+}
+
+.section-header {
+  color: #fff;
+  background: #00384d;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+}
+
+.img {
+  width: 12rem;
+  border-radius: 12rem;
+}
+
+.header {
+  color: #fff;
+  background: #467b8f;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+}
+
+.text-indent {
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+.content {
+  padding: 0rem 2rem 0 2rem !important;
+}
