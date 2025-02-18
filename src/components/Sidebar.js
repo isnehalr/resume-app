@@ -6,7 +6,7 @@ const Sidebar = () => (
   <div className="col-sm-3 jumbotron shadow-sm">
     <div className="container">
       <div className="text-center">
-        <img className="img img-fluid" src={img} />
+        <img className="img img-fluid" src={img} alt="display"/>
 
         <h2 className="display-name">Snehal Ramteke</h2>
         <div>

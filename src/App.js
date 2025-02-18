@@ -15,7 +15,6 @@ const App = () => {
         <div className="col-sm-9 content">
           <Introduction />
           <Experience />
-          <hr />
           <Education />
           <div className="pb-5" />
         </div>
