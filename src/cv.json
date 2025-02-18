@@ -1,0 +1,136 @@
+{
+    "introduction": "A motivated and tech-savvy developer with over 8+ years of experience working in modern front and backend development technologies. Skills include React.js, Next.js, Redux, Node.js, O365, AWS. Able to communicate effectively with a team, customers and very keen to develop more professional & technical skills in modern machine learning and AI technologies as well as cloud technologies.",
+    "education": [
+        {
+            "schoolName": "Prof. Ram Meghe Institute of Technology & Research, Amravati",
+            "degree": "B.E.",
+            "year": "2012 - 2016",
+            "branch": "Computer Science & Engineering"
+        },
+        {
+            "schoolName": "L. B. S. Junior College, Bhandara",
+            "degree": "H.S.C.",
+            "year": "2011"
+        },
+        {
+            "schoolName": "L. B. S. High School, Bhandara",
+            "degree": "S.S.C.",
+            "year": "2009"
+        }
+    ],
+    "experience": [
+        {
+            "companyName": "Brillio Technologies",
+            "position": "Software Development Lead",
+            "startDate": "April 2022",
+            "endDate": "Present",
+            "projects": [
+                {
+                    "title": "Acoustic CMS",
+                    "tools" : "React.js, Next.js, Node.js, AWS, VS Code",
+                    "responsibilities": [
+                        "Developing a CMS headless frontend using React.js and Next.js",
+                        "Integrate web components with React.js application",
+                        "Integrate Acoustic CMS APIs with the frontend",
+                        "Setup routing and state management",
+                        "Setup Acoustic CMS content types and layouts"
+                    ]
+                },
+                {
+                    "title": "Web components library development",
+                    "tools" : "React.js, Stencil.js, Node.js, VS Code",
+                    "responsibilities": [
+                        "Developing re-usable web components using Stencil.js & React.js",
+                        "Integrating web components with React.js application",
+                        "Integrate web components with Acoustic CMS layouts"
+                    ]
+                },
+                {
+                    "title": "CMS migration & re-development",
+                    "tools" : "Node.js, Angular, VS Code",
+                    "responsibilities": [
+                        "Migrating Silverstripe CMS to Acoustic CMS platform using tools & technologies like Node.js, Shell scripts, acoustic content sync etc.",
+                        "Designing & setting up Acoustic CMS content types and layouts",
+                        "Re-developing the frontend using Angular in Acoustic CMS"
+                    ]
+                }
+            ]
+        },
+        {
+            "companyName": "Emerson Export Engineering Center",
+            "position": "Software Engineer",
+            "startDate": "April 2019",
+            "endDate": "March 2022",
+            "projects": [
+                {
+                    "title": "Project Review System",
+                    "tools" : "React.js, VS Code, JavaScript",
+                    "responsibilities": [
+                        "Single page apps development",
+                        "Interactive Custom Forms development",
+                        "Integration with other apps using rest api"
+                    ]
+                },
+                {
+                    "title": "Enterprise Learning Portal",
+                    "tools" : "React.js, Redux, VS Code, JavaScript",
+                    "responsibilities": [
+                        "Custom Forms development",
+                        "Designing Charts and views for data visualization",
+                        "Custom Report views and exports functionality implementation"
+                    ]
+                }
+            ]
+        },
+        {
+            "companyName": "Tieto India Pvt Ltd",
+            "position": "Software Engineer",
+            "startDate": "November 2016",
+            "endDate": "April 2019",
+            "projects": [
+                {
+                    "title": "SharePoint application development & Migration",
+                    "tools" : "SharePoint online, PowerShell, VS Code, Git, Sharegate",
+                    "responsibilities": [
+                        "Development using SharePoint api",
+                        "Custom page layouts, display templates, web parts, result sources development",
+                        "SharePoint online apps deployment and configuration"
+                    ]
+                },
+                {
+                    "title": "Customer order forms portal",
+                    "tools" : "React.js, VS Code, JavaScript",
+                    "responsibilities": [
+                        "Forms development",
+                        "Workflows designing & integration"
+                    ]
+                },
+                {
+                    "title": "Branding material distribution portal",
+                    "tools" : "React.js, VS Code, JavaScript",
+                    "responsibilities": [
+                        "Content distribution portal designing & development",
+                        "Captcha integration",
+                        "Forms authentication"
+                    ]
+                }
+            ]
+        }
+    ],
+    "skills": [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "Redux",
+        "Node.js",
+        "Stencil.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Angular",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "AWS",
+        "SharePoint"
+    ]
+}

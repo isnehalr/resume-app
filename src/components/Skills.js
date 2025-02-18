@@ -1,4 +1,5 @@
 import React from "react";
+import csvData from "../cv.json";
 
 const Skills = () => (
   <>
@@ -7,14 +8,11 @@ const Skills = () => (
         <h2 className="shadow-sm header">Skills</h2>
       </header>
       <ul className="list-group">
-        <li className="title list-group-item">React.js</li>
-        <li className="title list-group-item">Redux </li>
-        <li className="title list-group-item">JavaScript</li>
-        <li className="title list-group-item">Node.js</li>
-        <li className="title list-group-item">HTML5 </li>
-        <li className="title list-group-item">CSS3 </li>
-        <li className="title list-group-item">SharePoint</li>
-        <li className="title list-group-item">Git</li>
+        {csvData.skills.map((skill, index) => (
+          <li key={index} className="title list-group-item">
+            {skill}
+          </li>
+        ))}
       </ul>
     </div>
   </>
