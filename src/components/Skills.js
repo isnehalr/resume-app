@@ -1,21 +1,17 @@
 import React from "react";
-import csvData from "../cv.json";
+import cvData from "../cv.json";
 
 const Skills = () => (
-  <>
-    <div className="container">
-      <header className="text-center mt-5">
-        <h2 className="shadow-sm header">Skills</h2>
-      </header>
-      <ul className="list-group">
-        {csvData.skills.map((skill, index) => (
-          <li key={index} className="title list-group-item">
-            {skill}
-          </li>
-        ))}
-      </ul>
+  <div className="w-full">
+    <h2 className="text-xs font-semibold uppercase tracking-widest text-brand-200 mb-3">Technical Skills</h2>
+    <div className="flex flex-wrap gap-2">
+      {cvData.skills.map((skill, index) => (
+        <span key={index} className="skill-badge">
+          {skill}
+        </span>
+      ))}
     </div>
-  </>
+  </div>
 );
 
 export default Skills;
