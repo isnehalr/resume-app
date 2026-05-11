@@ -1,25 +1,22 @@
 import React from "react";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "font-awesome/css/font-awesome.min.css";
 import Sidebar from "./components/Sidebar";
-import Experience from "./components/Experience";
 import Introduction from "./components/Introduction";
+import Experience from "./components/Experience";
 import Education from "./components/Education";
 
 const App = () => {
   return (
-    <>
-      <div className="row">
+    <div className="min-h-screen bg-slate-100">
+      <div className="max-w-6xl mx-auto px-4 py-10 flex flex-col lg:flex-row gap-8">
         <Sidebar />
-        <div className="col-sm-9 content">
+        <main className="flex-1 flex flex-col gap-8">
           <Introduction />
           <Experience />
           <Education />
-          <div className="pb-5" />
-        </div>
+        </main>
       </div>
-    </>
+    </div>
   );
 };
 
